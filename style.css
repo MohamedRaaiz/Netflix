@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.main-div{
+    display: flex;
+}
+.logo{
+    display: flex;
+    text-align: left;
+    padding: 30px 180px 0;
+    position: sticky;
+    
+
+}
+.logobg{
+    background-color:#0000009f;
+    width: 160px;
+    height: 45px;
+    border-radius: 20px 0;
+    border: 1px solid ;
+    box-shadow: 0 8px 32px 0;
+    border: .7px solid rgba(158, 159, 177, 0.37);
+    opacity: .6.5;
+    padding-bottom:8px;
+
+}
+.netflix-h1{
+    color: rgb(229, 9, 20);
+    padding: 5px 10px ;
+    opacity: .9.5;
+    letter-spacing: 2px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-top: 40px;
+    
+}
+.box{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.54);
+    border-radius: 5px;
+    width: 439px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.signin-h1{
+    width: 100%;
+    color: #fff;
+    opacity: none;
+    text-align: left;
+}
+.input-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 18px;
+
+}
+.input{
+    border-radius: 3px;
+    margin: 8px 0;
+    padding: 18px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+.input::placeholder{
+    padding: 5px;
+    font-size: 15px;
+    color: #ccc;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.sin-btn-div{
+    margin: 7.5px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sin-btn{
+    padding: 11.5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    font-weight: bold;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.or-cls{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-weight: 500;
+}
+.sincod-btn-div{
+    margin: 15px 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.sincod-btn{
+    width: 100%;
+    padding: 11.5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffffff3e;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.fgt-a{
+    text-align: center;
+    text-decoration: none;
+    color: #e9e5e5;
+}
+.rmbr-div{
+    color: #cccccccd;
+    margin: 15px 0 13.5px;
+}
+.chkbox{
+    background-color: tra;
+}
+.rmbr-txt{
+    font-size: 16.5px;
+}
+.new-to-netflix{
+    color: #e9e5e5bc;
+    font-weight: 400;
+
+}
+.a-newtonetflix{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+}
+.small-foot{
+    color: #e9e5e589;
+    margin: 20px 0 30px;
+
+}
+.a-smallfooter{
+    color: none;
+    text-decoration: none;
+}
